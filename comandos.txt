@@ -1,0 +1,3 @@
+grep "empate" derbi_processed.txt | awk '{print $4, $5}' | sort -k2n > empate.txt
+grep "Valencia" derbi_processed.txt | awk '{print $4, $5}' | sort -k2n > valencia.txt
+grep "Levante" derbi_processed.txt | awk '{print $4, $5}' | sort -k2n > levante.txt
